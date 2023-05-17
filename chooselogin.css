@@ -1,0 +1,218 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+}
+.profile-card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+  }
+  .profile-card-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: #4070f4;
+  }
+  .image2 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  .image2 .profile-img2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  .profile-card-2 .text-data2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  .text-data2 .name2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .text-data2 .job2 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .profile-card-2 .buttons2 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 50%;
+  }
+  .buttons2 .button2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .buttons2 .button2:hover {
+    background-color: #0e4bf1;
+  }
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    margin-bottom: 50px;
+  }
+  .profile-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: #4070f4;
+  }
+  .image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  .image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  .profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  .text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .buttons .button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .buttons .button:hover {
+    background-color: #0e4bf1;
+  }
+.back{
+    min-width :100vh;
+    width: 100%;
+    color:white;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 2%;
+}
+nav .logo{
+    box-sizing: border-box;
+    width:300px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+button{
+    background:#32de84;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-color:#32de84;
+
+}
+.intro h1{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+}
+.button1 .create
+{
+    text-decoration: none;
+}
+.button2 .create2
+{
+    text-decoration: none;
+}
